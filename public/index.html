@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#14110f">
+<title>Gula Express</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">🍔 Gula <span>Express</span></div>
+  <nav>
+    <button onclick="openTrack()">Mi pedido</button>
+    <button id="btnAccount" onclick="openAccount()">Cuenta</button>
+    <button onclick="openCart()">🛒 <b id="cartCount">0</b></button>
+  </nav>
+</header>
+<div id="banner"></div>
+<main id="app"><p class="mut">Cargando carta…</p></main>
+<div id="modal" class="modal hidden" onclick="if(event.target===this)closeModal()"></div>
+<script src="/app.js"></script>
+</body>
+</html>

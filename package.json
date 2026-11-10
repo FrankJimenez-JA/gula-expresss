@@ -1,0 +1,15 @@
+{
+  "name": "gula-express",
+  "version": "1.0.0",
+  "description": "Gula Express - Canal de venta digital y gestion operativa de pedidos (SIS-324, Grupo 10)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
